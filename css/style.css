@@ -1,6 +1,6 @@
 /* ------- Common Styles -------- */
 body{
-    background-color:white;
+    background-color: black;
     Width: 1440px;
     
     margin: 0 auto;
@@ -15,8 +15,18 @@ body{
 .container-2{
     background-color: white;
     width:1440px;
-    height:auto;
+    height:2200px;
     
+}
+.container-3{
+    background-color: white;
+    width:1440px;
+    height:500px;
+}
+.container-4{
+    background-color: white;
+    width:1440px;
+    height:400px;
 }
 /* ------ Copa-America Styles--------*/
 
@@ -80,8 +90,6 @@ body{
     margin-right: 195px;
     margin-left: 195px;
     padding-top: 70px;
-    
-   
 }
 
 .players .player img{
