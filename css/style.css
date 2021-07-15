@@ -1,8 +1,8 @@
 /* ------- Common Styles -------- */
 body{
-    background-color: black;
+    background-color:white;
     Width: 1440px;
-    height: auto;
+    
     margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@ body{
 .container-2{
     background-color: white;
     width:1440px;
-    height:2500px;
+    height:auto;
     
 }
 /* ------ Copa-America Styles--------*/
@@ -39,6 +39,7 @@ body{
     margin-left:156px;
     }
 .watch-live-btn{
+    text-decoration: none;
     background-color: #E02C6D;
     color:white;
     border: none;
@@ -59,10 +60,15 @@ body{
     margin-top:153px;
     margin-right:140px;
     margin-left:102px;
+   
     }
-
+    .copa-america-img:hover{
+    transform:rotateZ(15deg);
+    transition: 1s ease-in-out;
+  
+    }
+    
 /* -------- Football-Players Style -------- */
-
 
 
 
@@ -113,3 +119,75 @@ body{
     margin-top: 0;
     margin-bottom: 0;
 }
+
+/* ------- Newsletter-Form-Styles------- */
+.form{
+    margin-left: 400px;
+}
+.enter-email{
+    width: 500px;
+    height: 50px;
+    background-color:lavenderblush;
+    margin-top: 150px;
+}
+.newsletter{
+    background-color: #E02C6D;
+    border: none;
+    height:50px;
+    width:300px;
+    font-weight: 500;
+    font-size: 16px; 
+    color:  white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top:15px;
+}
+
+.more-btn{
+    align-items: center;
+    width: 700px;
+    height: 80px;
+    background-color:rgb(3, 3, 70);
+    margin-top: 90px;
+    margin-left:400px;
+}
+.more-btn-text{
+    text-decoration:none;
+    color:white;
+}
+
+/* ------- Fotter-Styles -------- */
+
+.footer{
+    position:absolute;
+    width: 483.87px;
+    height: 213px;
+    padding-bottom: 50px;
+    margin-left: 480px;
+    margin-top: 150px;;
+    
+}
+
+.social-icons{
+    display:flex;
+    justify-content: center;
+}
+.logo img{
+    background-color: white;
+    width: 483.87px;
+    height: 110px;
+}
+.social-icons .icons img{
+    width:32px;
+    height:32px;
+    padding-left:14px;
+    padding-right: 5px;
+}
+.copyright p{
+    text-align: center;}
+
+
+
+   
